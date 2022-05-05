@@ -2,6 +2,7 @@
 	padding: 0%;
 	margin: 0%;
 }
+
 /* fondo de pantalla */
 .cuerpo-prog {
 	height: auto;
@@ -27,6 +28,7 @@
 	border-bottom: none;
 	font-size: 40px;
 	font-family: Arial, Helvetica, sans-serif;
+	
 }
 
 .sub-titulo {
@@ -44,12 +46,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu-clase {
-	color: rgb(174, 151, 38);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
-	border: #9f8b6a solid 1px;
-}
+
 .parrafo-clase{
 
 background-color: #2e2e30;
@@ -72,15 +69,42 @@ border: #9f8b6a solid 2px;
 	background-color: #2e2e30;
 	font-size: 22px;
 }
-.barra-listas {
-	padding: 5px;
-}
 
-li,
+/* .menu-clase {
+	color: rgb(174, 151, 38);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	border: #9f8b6a solid 1px;
+} */
+/* .barra-listas {
+	padding: 5px;
+} */
+
+/* li,
 a {
 	list-style: none;
 	text-decoration: none;
 	color: rgb(174, 151, 38);
+} */
+
+.diseño-barra{
+	color: rgb(174, 151, 38);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	border: #9f8b6a solid 1px;
+	background-color: #2e2e30;
+	box-sizing:unset;
+}
+.diseño-celda{
+	list-style: none;
+	text-decoration: none;
+	color: rgb(174, 151, 38);
+	padding: 5px;
+	padding-left: 10px;
+    padding-right: 10px;
+	text-align: center;
+	background-color: #2e2e30;
+	
 }
 
 .div-ubicacion {
@@ -137,22 +161,23 @@ a {
 }
 
 /* index cierre */
-
 /* historia.html */
+/* modifica las medidas por el bootstrap */
 .titulo-siguientes {
-	height: 37px;
-	width: 400px;
-	margin: 18px;
-	margin-left: 2px;
-	margin-right: 2px;
-	margin-top: 50px;
-	padding: 15px;
-	color: rgb(174, 151, 38);
-	background-color: #2e2e30;
-	border: solid 3px #9f8b6a;
-	font-size: 35px;
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
+	height: 60px;
+    width: 400px;
+    margin: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 50px;
+    padding: 15px;
+    padding-left: 25px;
+    color: rgb(174, 151, 38);
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
 /* fotos historia */
 .img-cafeteria{
@@ -249,7 +274,7 @@ a {
 
 .grid{
 	display: grid;
-	grid-template-rows: 190px 300px 400px;
+	grid-template-rows: 180px 300px 400px;
 	grid-template-columns: 1fr;
 	grid-template-areas: 
 	"titulo-siguiente"
@@ -329,8 +354,8 @@ a {
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 8px;
 			color: #9f8b6a;
-			width: 120px;
-			height: 75px;
+			width: 195px;
+			height: 90px;
 			padding: 5px;
 			margin: 50px;
 			margin-left: 20px;
@@ -338,14 +363,13 @@ a {
 			text-align: center;
 			border: #9f8b6a solid 2px;
 	}
-	.clase-listas {
+	/* .clase-listas {
 			text-align: center;
 			display: flex;
 			justify-content: space-around;
 			background-color: #2e2e30;
 			font-size: 12px;
-
-	}
+				}
 	.barra-listas {
 			padding: 5px;
 	}
@@ -355,17 +379,36 @@ a {
 			list-style: none;
 			text-decoration: none;
 			color: rgb(174, 151, 38);
+	} */
+
+	.diseño-barra{
+		color: rgb(174, 151, 38);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		border: #9f8b6a solid 1px;
+		background-color: #2e2e30;
+		box-sizing:unset;
+	}
+	.diseño-celda{
+		list-style: none;
+		text-decoration: none;
+		color: rgb(174, 151, 38);
+		padding: 5px;
+		text-align: center;
+		background-color: #2e2e30;
+		box-sizing: unset;
 	}
 	
 	.div-ubicacion {
 			margin: 30px;
 			display: flex;
 			color: rgb(174, 151, 38);
-			font-size: 15px;
+			font-size: 10px;
+			margin: 30px;
 			margin-left: 10px;
 			margin-right: 10px;
 			background-color: #2e2e30;
-			height: 150px;
+			height: 180px;
 			width: auto;
 			border: #9f8b6a solid 3px;
 			padding: 10px;
@@ -421,19 +464,19 @@ a {
 		
 	}
 	.titulo-siguientes {
-			height: 15px;
-			width: 150px;
-			margin: 18px;
-			margin-left: 2px;
-			margin-right: 2px;
-			/* margin-top: 50px; */
-			padding: 15px;
-			color: rgb(174, 151, 38);
-			background-color: #2e2e30;
-			border: solid 3px #9f8b6a;
-			font-size: 15px;
-			font-family: Arial, Helvetica, sans-serif;
-			text-align: center;
+		height: 55%;
+		width: 150px;
+		margin: 18px;
+		margin-left: 2px;
+		margin-right: 2px;
+		/* margin-top: 50px; */
+		padding: 15px;
+		color: rgb(174, 151, 38);
+		background-color: #2e2e30;
+		border: solid 3px #9f8b6a;
+		font-size: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
 	}
 
 	.grid{
