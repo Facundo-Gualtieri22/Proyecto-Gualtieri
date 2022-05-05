@@ -70,22 +70,6 @@ border: #9f8b6a solid 2px;
 	font-size: 22px;
 }
 
-/* .menu-clase {
-	color: rgb(174, 151, 38);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
-	border: #9f8b6a solid 1px;
-} */
-/* .barra-listas {
-	padding: 5px;
-} */
-
-/* li,
-a {
-	list-style: none;
-	text-decoration: none;
-	color: rgb(174, 151, 38);
-} */
 
 .diseño-barra{
 	color: rgb(174, 151, 38);
@@ -162,7 +146,7 @@ a {
 
 /* index cierre */
 /* historia.html */
-/* modifica las medidas por el bootstrap */
+
 .titulo-siguientes {
 	height: 60px;
     width: 400px;
@@ -363,24 +347,7 @@ a {
 			text-align: center;
 			border: #9f8b6a solid 2px;
 	}
-	/* .clase-listas {
-			text-align: center;
-			display: flex;
-			justify-content: space-around;
-			background-color: #2e2e30;
-			font-size: 12px;
-				}
-	.barra-listas {
-			padding: 5px;
-	}
 	
-	li,
-	a {
-			list-style: none;
-			text-decoration: none;
-			color: rgb(174, 151, 38);
-	} */
-
 	.diseño-barra{
 		color: rgb(174, 151, 38);
 		font-family: Arial, Helvetica, sans-serif;
@@ -650,23 +617,22 @@ a {
 			text-align: center;
 			border: #9f8b6a solid 2px;
 	}
-	.clase-listas {
-			text-align: center;
-			display: flex;
-			justify-content: space-around;
-			background-color: #2e2e30;
-			font-size: 12px;
-
+	.diseño-barra{
+		color: rgb(174, 151, 38);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		border: #9f8b6a solid 1px;
+		background-color: #2e2e30;
+		box-sizing:unset;
 	}
-	.barra-listas {
-			padding: 5px;
-	}
-	
-	li,
-	a {
-			list-style: none;
-			text-decoration: none;
-			color: rgb(174, 151, 38);
+	.diseño-celda{
+		list-style: none;
+		text-decoration: none;
+		color: rgb(174, 151, 38);
+		padding: 5px;
+		text-align: center;
+		background-color: #2e2e30;
+		box-sizing: unset;
 	}
 	
 	.div-ubicacion {
