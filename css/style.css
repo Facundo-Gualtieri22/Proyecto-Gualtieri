@@ -113,9 +113,15 @@ border: #9f8b6a solid 2px;
 	margin-right: 100px;
 }
 .mapa-ubicacion {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	margin: auto;
+}
+.mapa-ubicacion:hover{
+	transform: scale(2);
+	transition-property: all;
+	transition-duration: 1s;
+	
 }
 
 .redes-sociales {
