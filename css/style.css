@@ -567,7 +567,7 @@ border: #9f8b6a solid 2px;
 			
 		.videos-trailer:hover{
 			
-			transform: translateX(-60px);
+			transform: scale(2) translateX(-60px);
 			
 		
 		}
@@ -851,11 +851,10 @@ border: #9f8b6a solid 2px;
 			
 		.videos-trailer:hover{
 			
-			transform: translateX(-60px);
+			transform: scale(2) translateX(-60px);
 			
 		
 		}
-		
 	.libros-contenedores {
 		display: flex;
 		background-color: #2e2e30;
